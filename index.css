@@ -1,0 +1,119 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Reenie+Beanie&subset=latin-ext';
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.jumbotron {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.table {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+}
+
+.jumbotron .table {
+    height: 100vh;
+    width: 100%;
+}
+
+.jumbotron .cell {
+    vertical-align: middle;
+}
+
+.step {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.text-love {
+    color: #f00;
+}
+
+hr {
+    height: 1px;
+    background-color: #eee;
+    border: 0;
+    margin: 50px -50px;
+}
+
+h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 350%;
+    color: #333;
+    margin: 0;
+}
+
+h2 {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 250%;
+    color: #666;
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-signature {
+    color: #34495e;
+    font-family: 'Reenie Beanie', sans-serif;
+    font-style: italic;
+    font-size: 350%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+a {
+    color: #069;
+    text-decoration: none;
+}
+
+a.text-button {
+    border: 1px solid #069;
+    padding: 10px;
+    margin: 10px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+a.text-button:hover {
+    background-color: #069;
+    color: #fff;
+}
