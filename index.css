@@ -101,6 +101,10 @@ p {
     font-weight: 600;
 }
 
+.text-faded {
+    color: #999;
+}
+
 a {
     color: #069;
     text-decoration: none;
