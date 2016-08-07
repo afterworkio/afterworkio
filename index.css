@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
     padding: 50px;
 }
@@ -36,13 +36,6 @@ body {
 
 .jumbotron .cell {
     vertical-align: middle;
-}
-
-.step {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    max-width: 400px;
-    margin: auto;
 }
 
 .text-love {
@@ -67,9 +60,18 @@ h1 {
 h2 {
     font-family: Lato, sans-serif;
     font-weight: 400;
+    font-size: 200%;
+    color: #999;
+    margin: 0;
+}
+
+h3 {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
     font-size: 250%;
     color: #666;
     margin: 0;
+    margin-top: 25px;
 }
 
 p {
@@ -104,16 +106,23 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a.text-button {
-    border: 1px solid #069;
+    border: 2px solid #069;
     padding: 10px;
     margin: 10px 5px;
     display: inline-block;
     border-radius: 5px;
     min-width: 150px;
+    font-weight: 600;
+    font-size: 150%;
 }
 
 a.text-button:hover {
     background-color: #069;
     color: #fff;
+    text-decoration: none;
 }
