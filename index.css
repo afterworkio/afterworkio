@@ -13,10 +13,12 @@ body {
 .jumbotron {
     width: 100%;
     min-height: 100vh;
+    text-align: center;
 }
 
 .table {
     display: table;
+    min-height: 100vh;
 }
 
 .row {
@@ -25,6 +27,7 @@ body {
 
 .cell {
     display: table-cell;
+    vertical-align: middle;
 }
 
 .container {
@@ -50,7 +53,7 @@ hr {
     height: 1px;
     background-color: #eee;
     border: 0;
-    margin: 50px -50px;
+    margin: 50px 0px;
 }
 
 h1 {
@@ -133,4 +136,10 @@ a.text-button:hover {
     background-color: #1b95e0;
     color: #fff;
     text-decoration: none;
+}
+
+.poster {
+    max-width: 60%;
+    margin: auto;
+    display: inline-block;
 }
